@@ -1,0 +1,12 @@
+111	0	video cs101 meta bug issues nationalities
+15084	0	cs101 board digital lessons jobs
+2	0	cs101 welcome
+262	0	cs101 browsers issues
+26454	0	cs101 application discussion jobs
+3778	1	cs101 profile issues
+6011204	2	cs253 discussion homework
+6011936	2	cs253 google-appengine discussion html
+6012754	1	cs253 hw2-1 homework deadlines
+6015491	2	cs253 udacity-future discussion offtopic udacity
+66193	3	cs101 cs212 cs262 cs253 discussion meta welcome lessons
+7185	0	cs101 hungarian nationalities welcome
