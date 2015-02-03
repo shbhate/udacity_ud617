@@ -30,11 +30,11 @@ e.g.
 
 ### Interlude between stage 1 and stage 2: Combine reducer outputs into a single file
 
-Many reducers may independently work in parallel during stage 1 and each produce a separate output file by the name “part-'part number'” (e.g part-00001). To concatenate these results into a single file, the getmerge command can be used as follows  
-hadoop fs -getmerge <stage_1_outputdir path>    <local path to new file which will contain concatenated results>
+Many reducers may independently work in parallel during stage 1 and each produce a separate output file by the name “part-'part number'” (e.g part-00001). To concatenate these results into a single file, the getmerge command can be used as follows   
+hadoop fs -getmerge 'stage_1_outputdir path'    'local path to new file which will contain concatenated results'
 
-After executing this command, the output file can be uploaded to HDFS using the put command
-hadoop fs –put    <stage_1_combined_input_file>    <path to inputdir for stage 2>
+After executing this command, the output file can be uploaded to HDFS using the put command   
+hadoop fs –put    'stage_1_combined_input_file'    'path to inputdir for stage 2'
 
 
 ### MapReduce Stage 2
